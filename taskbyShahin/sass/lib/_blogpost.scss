@@ -1,0 +1,249 @@
+#blogpost {
+    background: #f3f3f9;
+    width: 100%;
+    height: 1150px;
+    position: relative;
+    top: 381px;
+    .info2 {
+        width: 100%;
+        height: 280px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            position: relative;
+            top: -220px;
+        }
+        .opacity {
+            position: relative;
+            top: -558px;
+            left: 0;
+            width: 100%;
+            height: 280px;
+            background: rgba(0, 0, 0, 0.61);
+        }
+    }
+    .container1 {
+        input {
+            position: relative;
+            top: -729px;
+            left: 760px;
+            width: 350px;
+            height: 50px;
+            outline: none;
+        }
+        .btn4 {
+            position: relative;
+            top: -723px;
+            left: 755px;
+            cursor: pointer;
+            padding: 0;
+            background: #db1212;
+            width: 200px;
+            font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            height: 56px;
+            color: #fff;
+            margin: 0;
+            outline: none;
+            font-size: 23px;
+            border: none;
+            &:hover{
+                background: #000;
+                transition: all .4s linear;
+            }
+        }
+        .opacitytext {
+            position: absolute;
+            top: 1264px;
+            margin: 0;
+            color: #fff;
+            font-size: 44px;
+            font-family: $mainFont;
+        }
+        .txt {
+            text-align: center;
+            position: relative;
+            top: 140px;
+            h1 {
+                font-family: 'Roboto', sans-serif;
+                margin: 0;
+                font-size: 46px;
+                font-weight: 600;
+            }
+        }
+        .grid5 {
+            position: relative;
+            top: 200px;
+            grid-gap: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-auto-rows: 600px;
+            .news {
+                width: 100%;
+                height: 300px;
+                background: #fff;
+                position: relative;
+                top: -30px;
+                z-index: 1;
+                h1 {
+                    font-family: 'Roboto', sans-serif;
+                    margin: 0;
+                    position: relative;
+                    top: 30px;
+                    font-size: 25px;
+                    left: 35px;
+                }
+                p {
+                    font-family: 'Roboto', sans-serif;
+                    margin: 0;
+                    color: #828590;
+                    padding-top: 55px;
+                    letter-spacing: 1px;
+                    line-height: 25px;
+                    padding-left: 36px;
+                }
+                .icon {
+                    position: relative;
+                    top: -25px;
+                    i {
+                        font-size: 20px;
+                        color: gray;
+                        position: relative;
+                        top: 75px;
+                        left: 40px;
+                    }
+                    span {
+                        position: relative;
+                        top: 75px;
+                        left: 46px;
+                        font-size: 18px;
+                        color: gray;
+                        font-family: $mainFont;
+                    }
+                }
+                .icon1 {
+                    position: relative;
+                    top: -25px;
+                    i {
+                        font-size: 20px;
+                        color: gray;
+                        position: relative;
+                        top: 50px;
+                        left: 40px;
+                    }
+                    span {
+                        position: relative;
+                        top: 50px;
+                        font-family: $mainFont;
+                        font-size: 18px;
+                        color: gray;
+                        left: 50px;
+                    }
+                }
+                .icon2 {
+                    position: relative;
+                    top: -25px;
+                    i {
+                        font-size: 20px;
+                        color: gray;
+                        position: relative;
+                        top: 105px;
+                        left: 42px;
+                    }
+                    span {
+                        font-size: 18px;
+                        color: gray;
+                        font-family: $mainFont;
+                        position: relative;
+                        top: 104px;
+                        left: 52px;
+                    }
+                }
+            }
+            .tips {
+                width: 98px;
+                position: relative;
+                height: 25px;
+                background: $colorFirst;
+                top: -19px;
+                left: 34px;
+                z-index: 2;
+                h6 {
+                    margin: 0;
+                    text-align: center;
+                    font-size: 13px;
+                    color: #fff;
+                    padding-top: 4px;
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+            .image {
+                overflow: hidden;
+            }
+            .btndiv {
+                text-align: center;
+                position: relative;
+                top: 55px;
+                height: 73px;
+                width: 335px;
+                left: 480px;
+                &:hover {
+                    .br8 {
+                        width: 334px;
+                        transition: all .6s ease;
+                    }
+                    button {
+                        transition: all .2s ease;
+                        background: transparent;
+                        color: #db1212;
+                    }
+                    .br9 {
+                        width: 334px;
+                        transition: all .6s ease;
+                    }
+                }
+                .br8 {
+                    width: 150px;
+                    height: 0px;
+                    margin-top: -4px;
+                    position: relative;
+                    top: -6px;
+                    border-top: 4px solid #db1212;
+                }
+                button {
+                    width: 335px;
+                    height: 65px;
+                    background: #db1212;
+                    color: #fff;
+                    font-size: 18px;
+                    position: relative;
+                    border: none;
+                    top: -10px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    overflow: hidden;
+                    outline: none;
+                }
+                .br9 {
+                    width: 150px;
+                    margin-top: -37px;
+                    float: right;
+                    position: relative;
+                    top: 23px;
+                    border-top: 4px solid #db1212;
+                }
+            }
+            div {
+                img {
+                    width: 100%;
+                    cursor: pointer;
+                    transform: scale(1.1);
+                    transition: all .4s linear;
+                    &:hover {
+                        transform: scale(1.0);
+                        transition: all .4s linear;
+                    }
+                }
+            }
+        }
+    }
+}

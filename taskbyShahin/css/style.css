@@ -1,0 +1,2341 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+
+.container1 {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+
+#first {
+  width: 100%;
+  height: 70px;
+  background: #f3f3f9;
+}
+#first .container .first-page {
+  width: 100%;
+  height: 70px;
+}
+#first .container .first-page .a {
+  position: relative;
+}
+#first .container .first-page .b {
+  position: absolute;
+  top: 0px;
+  left: 594px;
+}
+#first .container .first-page .c {
+  position: absolute;
+  top: 0;
+  left: 850px;
+}
+#first .container .first-page i {
+  color: darkgrey;
+  font-size: 1.5em;
+  position: relative;
+  top: 4px;
+}
+#first .container .first-page span {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 4.4em;
+  color: #444454;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#first .container .first-page span:hover {
+  color: #db1212;
+  transition: all 0.3s ease-in-out;
+}
+#first .container .first-page .btn {
+  height: 70px;
+  width: 120px;
+  position: absolute;
+  top: 0;
+  right: 116px;
+}
+#first .container .first-page .btn .bbt {
+  background: #db1212;
+  cursor: pointer;
+}
+#first .container .first-page .btn .bbt:hover {
+  background: #000;
+  transition: all 0.3s ease-in-out;
+}
+#first .container .first-page .btn .bbt span {
+  color: #fff;
+}
+#first .container .first-page .btn .bbt i {
+  font-size: 1.5em;
+  line-height: 2;
+  margin-left: 30px;
+  color: #fff;
+}
+
+#navbar .container .logo {
+  height: 150px;
+}
+#navbar .container .logo img {
+  margin-top: 56px;
+}
+#navbar .container .nav {
+  height: 20px;
+  margin-top: -169px;
+  float: right;
+  margin-left: 88px;
+  line-height: 8;
+}
+#navbar .container .nav ul {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#navbar .container .nav ul li {
+  display: inline-block;
+  padding-left: 33px;
+}
+#navbar .container .nav ul li i {
+  font-size: 14px;
+}
+#navbar .container .nav ul li:hover {
+  color: #db1212;
+  transition: all 0.3s ease-in-out;
+}
+#navbar .container .nav ul li:hover i {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+#navbar .container .nav ul .fir {
+  color: #db1212;
+}
+#navbar .container .nav ul .lg {
+  width: 26px;
+  margin-top: 2px;
+  float: right;
+  padding-left: 35px;
+  height: 150px;
+}
+#navbar .container .nav ul .lg i {
+  font-size: 24px;
+}
+#navbar .container .nav ul .lg i:hover {
+  color: #db1212;
+  transition: all 0.3s ease-in-out;
+}
+
+#pic {
+  height: 749px;
+  background: #f3f3f9;
+}
+#pic img {
+  width: 100%;
+}
+#pic .pic {
+  position: relative;
+}
+#pic .border1 {
+  margin-left: 540px;
+  height: 64px;
+  border-bottom: 2px solid #fff;
+  margin-top: -64px;
+  width: 52px;
+}
+#pic .border {
+  margin-left: 70px;
+  height: 64px;
+  border-bottom: 2px solid #fff;
+  margin-top: -119px;
+  width: 52px;
+}
+#pic .picture {
+  position: relative;
+}
+#pic .picture .opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background: rgba(0, 0, 0, 0.39);
+}
+#pic .btn1 {
+  position: absolute;
+  top: 563px;
+  left: 556px;
+  overflow: hidden;
+}
+#pic .btn1 .but1 {
+  width: 230px;
+  height: 65px;
+  background: #db1212;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+#pic .btn1 .but1 .br {
+  width: 28%;
+  height: 0px;
+  margin-top: -4px;
+  position: relative;
+  top: -17px;
+  left: -6px;
+  border-top: 4px solid #db1212;
+}
+#pic .btn1 .but1 .br1 {
+  width: 53%;
+  margin-top: -37px;
+  float: right;
+  position: relative;
+  top: 54px;
+  left: 6px;
+  border-top: 4px solid #db1212;
+}
+#pic .btn1 .but1:hover {
+  transition: all .2s ease;
+  background: transparent;
+  color: white;
+}
+#pic .btn1 .but1:hover .br {
+  width: 105%;
+  transition: all .5s ease;
+}
+#pic .btn1 .but1:hover .br1 {
+  width: 105%;
+  transition: all .5s ease;
+}
+#pic .btn1 .but {
+  width: 175px;
+  height: 65px;
+  background: #fff;
+  margin-left: 41px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+  outline: none;
+}
+#pic .btn1 .but .br2 {
+  width: 50%;
+  height: 0px;
+  margin-top: -4px;
+  position: relative;
+  top: -17px;
+  left: -5px;
+  border-top: 4px solid #fff;
+}
+#pic .btn1 .but .br3 {
+  width: 50%;
+  margin-top: -37px;
+  float: right;
+  position: relative;
+  top: 54px;
+  left: 5px;
+  border-top: 4px solid #fff;
+}
+#pic .btn1 .but:hover {
+  transition: all .2s ease;
+  background: transparent;
+  color: white;
+}
+#pic .btn1 .but:hover .br2 {
+  width: 105%;
+  transition: all .5s ease;
+}
+#pic .btn1 .but:hover .br3 {
+  width: 105%;
+  transition: all .5s ease;
+}
+#pic .container .book {
+  position: relative;
+  background: #fff;
+  top: -140px;
+  height: 250px;
+}
+#pic .container .book h1 {
+  position: relative;
+  top: 23px;
+  margin-top: 40px;
+  margin-left: 40px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#pic .container .booking {
+  width: 1205px;
+  margin-left: 43px;
+  margin-top: 50px;
+  height: 156px;
+  display: grid;
+  grid-gap: 29px;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+}
+#pic .container .booking .bb > span {
+  color: #70707c;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+}
+#pic .container .booking .kv1 {
+  height: 65px;
+  margin-top: 13px;
+  border: 1px solid #dcd6d6;
+  position: relative;
+  cursor: pointer;
+}
+#pic .container .booking .kv3 {
+  cursor: pointer;
+}
+#pic .container .booking .kv3:hover {
+  background: #000;
+  transition: all 0.3s ease-in;
+}
+#pic .container .booking .kv3 p {
+  font-size: 23px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding-top: 16px;
+}
+#pic .container .booking .kv2 {
+  height: 65px;
+  margin-top: 13px;
+  width: 167px;
+  border: 1px solid #dcd6d6;
+  position: relative;
+}
+#pic .container .booking .kv2 span {
+  margin-top: 2px;
+}
+#pic .container .booking .kv2 .i {
+  margin-top: 25px;
+  text-align: center;
+}
+#pic .container .booking .kv2 .i h5 {
+  width: 125px;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: -6px;
+  color: black;
+}
+#pic .container .booking .kv2 .i i:first-child {
+  float: left;
+  margin-left: 25px;
+  margin-top: 7px;
+  color: #db1212;
+  cursor: pointer;
+}
+#pic .container .booking .kv2 .i i:first-child:hover {
+  color: #000;
+  transition: all .3s ease;
+}
+#pic .container .booking .kv2 .i i:last-child {
+  float: right;
+  margin-right: 25px;
+  margin-top: -51px;
+  color: #db1212;
+  cursor: pointer;
+}
+#pic .container .booking .kv2 .i i:last-child:hover {
+  color: #000;
+  transition: all .3s ease;
+}
+#pic .container .booking .kv3 {
+  height: 65px;
+  margin-top: 33px;
+  background: #db1212;
+  position: relative;
+  cursor: pointer;
+}
+#pic .container .booking .i {
+  margin-top: 25px;
+}
+#pic .container .booking .kv {
+  height: 65px;
+  margin-top: 13px;
+  border: 1px solid #dcd6d6;
+  position: relative;
+  cursor: pointer;
+}
+#pic .container .booking .kv p {
+  line-height: 29px;
+  margin-left: 13px;
+  font-size: 18px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #70707c;
+}
+#pic .container .booking .kv span {
+  position: absolute;
+  top: 21px;
+  font-size: 19px;
+  left: 271px;
+}
+#pic .container .booking .kv span i {
+  margin-top: 5px;
+}
+#pic .text {
+  position: absolute;
+  top: 232px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #fff;
+  font-size: 5em;
+  left: 447px;
+}
+#pic .text h1 {
+  font-weight: 400;
+  font-family: 'Condiment', cursive;
+}
+#pic .text p {
+  text-align: center;
+  font-size: 34px;
+  margin-top: -109px;
+  margin-left: 12px;
+}
+
+#goods {
+  height: 950px;
+  width: 100%;
+  background: #f3f3f9;
+}
+#goods .grid {
+  position: relative;
+  top: 55px;
+  width: 100%;
+  grid-gap: 19px;
+  display: inline-flex;
+}
+#goods .grid h3 {
+  margin: 0;
+  line-height: 2;
+  margin-left: 19px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#goods .grid div:first-child {
+  width: 625px;
+  background: #fff;
+  height: 482px;
+}
+#goods .grid div:first-child .back1 {
+  position: absolute;
+  cursor: pointer;
+  transition: all .3s linear;
+  top: 0;
+  left: 0;
+}
+#goods .grid div:first-child .up {
+  background: white;
+  position: relative;
+  top: -48px;
+  height: 43px;
+}
+#goods .grid div:first-child .up h1 {
+  padding: 0;
+  margin: 0;
+  padding-left: 22px;
+  font-size: 24px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+}
+#goods .grid div:first-child .dropup {
+  visibility: hidden;
+  position: relative;
+  top: -50px;
+  height: 100px;
+}
+#goods .grid div:first-child .dropup h1 {
+  padding: 0;
+  margin: 0;
+  background: #db1212;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  padding-left: 23px;
+}
+#goods .grid div:first-child .dropup p {
+  padding: 0;
+  padding-left: 23px;
+  padding-top: 3px;
+  margin: 0;
+  height: 120px;
+  font-size: 19px;
+  background: #db1212;
+  color: #fff;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#goods .grid div:first-child img {
+  width: 100%;
+}
+#goods .grid div:nth-child(2) {
+  width: 294px;
+  position: relative;
+  left: 40px;
+  background: #fff;
+}
+#goods .grid div:nth-child(2):hover .btn2 {
+  left: 68px;
+  visibility: visible;
+  transition: all .2s linear;
+}
+#goods .grid div:nth-child(2):hover .btn3 {
+  left: 68px;
+  visibility: visible;
+  transition: all .3s linear;
+}
+#goods .grid div:nth-child(2) .par1 {
+  margin: 0;
+  padding-top: 11px;
+  padding-left: 21px;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#goods .grid div:nth-child(2) .par {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 17px;
+  padding-top: 32px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+}
+#goods .grid div:nth-child(2) .sale {
+  width: 50px;
+  height: 25px;
+  background: #db1212;
+  position: relative;
+  top: 21px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  left: 19px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.6;
+}
+#goods .grid div:nth-child(2) img {
+  margin-top: 3px;
+  width: 70%;
+  margin-left: 47px;
+}
+#goods .grid div:nth-child(2) .btn3 {
+  padding: 0;
+  width: 170px;
+  position: relative;
+  top: 178px;
+  color: #fff;
+  left: 51px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: darkgrey;
+  font-weight: bold;
+  border: none;
+  height: 42px;
+  cursor: pointer;
+  visibility: hidden;
+}
+#goods .grid div:nth-child(2) .btn3:hover {
+  background: #342737;
+  transition: all .3s ease;
+}
+#goods .grid div:nth-child(2) .btn2 {
+  padding: 0;
+  width: 170px;
+  position: relative;
+  top: 169px;
+  color: #fff;
+  left: 51px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #db1212;
+  font-weight: bold;
+  border: none;
+  height: 42px;
+  cursor: pointer;
+  visibility: hidden;
+}
+#goods .grid div:nth-child(2) .btn2:hover {
+  background: #342737;
+  transition: all .3s ease;
+}
+#goods .grid div:last-child {
+  position: relative;
+  left: 80px;
+  width: 293px;
+  background: #fff;
+}
+#goods .grid div:last-child:hover .btn2 {
+  left: 68px;
+  visibility: visible;
+  transition: all .2s linear;
+}
+#goods .grid div:last-child:hover .btn3 {
+  left: 68px;
+  visibility: visible;
+  transition: all .3s linear;
+}
+#goods .grid div:last-child .par1 {
+  margin: 0;
+  padding-top: 11px;
+  padding-left: 21px;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#goods .grid div:last-child .par {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 17px;
+  padding-top: 32px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+}
+#goods .grid div:last-child .sale {
+  width: 50px;
+  height: 25px;
+  background: #db1212;
+  position: relative;
+  top: 21px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  left: 19px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.6;
+}
+#goods .grid div:last-child img {
+  margin-top: 3px;
+  width: 70%;
+  margin-left: 47px;
+}
+#goods .grid div:last-child .btn3 {
+  padding: 0;
+  width: 170px;
+  position: relative;
+  top: 178px;
+  color: #fff;
+  left: 51px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: darkgrey;
+  font-weight: bold;
+  border: none;
+  height: 42px;
+  visibility: hidden;
+  cursor: pointer;
+}
+#goods .grid div:last-child .btn3:hover {
+  background: #342737;
+  transition: all .3s ease;
+}
+#goods .grid div:last-child .btn2 {
+  padding: 0;
+  width: 170px;
+  position: relative;
+  top: 169px;
+  color: #fff;
+  left: 51px;
+  cursor: pointer;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #db1212;
+  font-weight: bold;
+  border: none;
+  height: 42px;
+  visibility: hidden;
+}
+#goods .grid div:last-child .btn2:hover {
+  background: #342737;
+  transition: all .3s ease;
+}
+#goods .grid div:nth-child(1) {
+  height: 480px;
+  overflow: hidden;
+  position: relative;
+}
+#goods .grid div:nth-child(1) img {
+  transition: all .3s linear;
+}
+#goods .grid div:nth-child(1):hover img {
+  margin-top: -50px;
+}
+#goods .grid div:nth-child(1):hover .down {
+  bottom: 0px;
+}
+#goods .grid .down {
+  background-color: #db1212;
+  position: absolute;
+  bottom: -130px;
+  left: 0px;
+  color: #fff;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  transition: all .3s linear;
+}
+#goods .grid .down p {
+  margin-left: 19px;
+  margin-top: 4px;
+  font-weight: 400;
+}
+#goods .grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 270px;
+  grid-gap: 40px;
+}
+#goods .grid1 img {
+  width: 100%;
+}
+#goods .grid1 > div {
+  overflow: hidden;
+  position: relative;
+  height: 350px;
+}
+#goods .grid1 > div .back {
+  position: absolute;
+  cursor: pointer;
+  transition: all .3s linear;
+  top: 0;
+  left: 0;
+}
+#goods .grid1 > div .back .up {
+  background: white;
+  position: relative;
+  top: -48px;
+  height: 43px;
+}
+#goods .grid1 > div .back .up h1 {
+  padding: 0;
+  margin: 0;
+  padding-left: 22px;
+  font-size: 24px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+}
+#goods .grid1 > div .back .dropup {
+  visibility: hidden;
+  position: relative;
+  top: -50px;
+  height: 100px;
+}
+#goods .grid1 > div .back .dropup h1 {
+  padding: 0;
+  margin: 0;
+  background: #db1212;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  padding-left: 23px;
+}
+#goods .grid1 > div .back .dropup p {
+  padding: 0;
+  padding-left: 23px;
+  padding-top: 3px;
+  margin: 0;
+  height: 120px;
+  font-size: 19px;
+  background: #db1212;
+  color: #fff;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#goods .grid1 > div:hover .back {
+  top: -50px;
+  transition: all .3s linear;
+}
+#goods .grid1 > div:hover .up {
+  visibility: hidden;
+}
+#goods .grid1 > div:hover .dropup {
+  visibility: visible;
+  transition: all .3s linear;
+  top: -153px;
+}
+
+#events {
+  width: 100%;
+  height: 800px;
+  background: #f3f3f9;
+}
+#events .h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+#events .info {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  top: -64px;
+}
+#events .info img {
+  width: 100%;
+  position: absolute;
+  top: -93px;
+  transform: scale(1.3);
+}
+#events .info .opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 595px;
+  background: rgba(0, 0, 0, 0.5);
+}
+#events .container1 {
+  position: relative;
+  top: 80px;
+}
+#events .container1 .info1 {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-rows: 300px;
+  grid-gap: 15px;
+}
+#events .container1 .info1 > div {
+  text-align: center;
+}
+#events .container1 .info1 h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding-top: 15px;
+}
+#events .container1 .info1 p {
+  margin: 0;
+  color: #fff;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
+#events .container1 .info1 i {
+  color: gray;
+  font-size: 50px;
+  text-align: center;
+}
+#events .container1 .grid_2 div:first-child {
+  width: 408px;
+  height: 120px;
+  float: left;
+}
+#events .container1 .grid_2 div:first-child h3 {
+  font-size: 25px;
+  padding-top: 15px;
+  margin: 0;
+  color: #db1212;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  cursor: pointer;
+}
+#events .container1 .grid_2 div:first-child h3:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+#events .container1 .grid_2 div:first-child p {
+  font-size: 17px;
+  color: darkgray;
+}
+#events .container1 .grid_2 div:nth-child(2) {
+  width: 408px;
+  height: 120px;
+  float: left;
+  margin-left: 33px;
+}
+#events .container1 .grid_2 div:nth-child(2) h3 {
+  font-size: 25px;
+  padding-top: 15px;
+  margin: 0;
+  color: #db1212;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  cursor: pointer;
+}
+#events .container1 .grid_2 div:nth-child(2) h3:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+#events .container1 .grid_2 div:nth-child(2) p {
+  font-size: 17px;
+  color: darkgray;
+}
+#events .container1 .grid_2 div:last-child {
+  width: 408px;
+  height: 120px;
+  float: left;
+  margin-left: 34px;
+}
+#events .container1 .grid_2 div:last-child h3 {
+  font-size: 25px;
+  padding-top: 15px;
+  margin: 0;
+  color: #db1212;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  cursor: pointer;
+}
+#events .container1 .grid_2 div:last-child h3:hover {
+  color: #000;
+  transition: all .7s ease;
+}
+#events .container1 .grid_2 div:last-child p {
+  font-size: 17px;
+  color: darkgray;
+}
+#events .container1 .view {
+  text-align: center;
+  position: relative;
+  top: 60px;
+  height: 73px;
+  width: 230px;
+  left: 527px;
+}
+#events .container1 .view:hover .br2 {
+  width: 229px;
+  transition: all .5s ease;
+}
+#events .container1 .view:hover .br3 {
+  width: 229px;
+  transition: all .5s ease;
+}
+#events .container1 .view button {
+  width: 230px;
+  height: 65px;
+  background: #db1212;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+#events .container1 .view button:hover {
+  transition: all .2s ease;
+  background: transparent;
+  color: #db1212;
+}
+#events .container1 .view .br2 {
+  width: 60px;
+  height: 0px;
+  margin-top: -4px;
+  position: relative;
+  top: 4px;
+  border-top: 4px solid #db1212;
+}
+#events .container1 .view .br3 {
+  width: 60px;
+  margin-top: -37px;
+  float: right;
+  position: relative;
+  top: 33px;
+  border-top: 4px solid #db1212;
+}
+#events .container1 .grid2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: 294px;
+  grid-gap: 35px;
+}
+#events .container1 .grid2 .heading {
+  position: relative;
+  z-index: 5;
+  background: #f3f3f9;
+  font-size: 52px;
+  font-weight: bold;
+  width: 115px;
+  text-align: center;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  top: -8px;
+}
+#events .container1 .grid2 h1 {
+  position: relative;
+  z-index: 5;
+  background: #f3f3f9;
+  margin: 0;
+  width: 115px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  height: 27px;
+  font-weight: 100;
+  text-align: center;
+  top: -8px;
+}
+#events .container1 .grid2 > div img {
+  width: 100%;
+}
+#events .container1 .grid2 div:first-child {
+  overflow: hidden;
+}
+#events .container1 .grid2 div:first-child:hover img {
+  transform: scale(1);
+  height: 100%;
+  transition: all 1s linear;
+}
+#events .container1 .grid2 div:first-child img {
+  cursor: pointer;
+  position: relative;
+  top: -97px;
+  transform: scale(1.1);
+}
+#events .container1 .grid2 div:nth-child(2) {
+  overflow: hidden;
+}
+#events .container1 .grid2 div:nth-child(2):hover img {
+  transform: scale(1);
+  transition: all 1s linear;
+  height: 100%;
+}
+#events .container1 .grid2 div:nth-child(2) img {
+  cursor: pointer;
+  position: relative;
+  top: -97px;
+  transform: scale(1.1);
+}
+#events .container1 .grid2 div:last-child {
+  overflow: hidden;
+}
+#events .container1 .grid2 div:last-child:hover img {
+  transform: scale(1);
+  transition: all 1s linear;
+  height: 100%;
+}
+#events .container1 .grid2 div:last-child img {
+  cursor: pointer;
+  position: relative;
+  top: -97px;
+  transform: scale(1.1);
+}
+
+#aboutus {
+  position: relative;
+  top: 401px;
+  width: 100%;
+  height: 600px;
+  background: #f3f3f9;
+}
+#aboutus .container1 .infor {
+  text-align: center;
+  position: relative;
+  top: 60px;
+  height: 73px;
+  width: 335px;
+  cursor: pointer;
+}
+#aboutus .container1 .infor:hover button {
+  transition: all .2s ease;
+  background: transparent;
+  color: #db1212;
+}
+#aboutus .container1 .infor:hover .br4 {
+  width: 334px;
+  transition: all .6s ease;
+}
+#aboutus .container1 .infor:hover .br5 {
+  width: 334px;
+  transition: all .6s ease;
+}
+#aboutus .container1 .infor .br4 {
+  width: 150px;
+  height: 0px;
+  margin-top: -4px;
+  position: relative;
+  top: -6px;
+  border-top: 4px solid #db1212;
+}
+#aboutus .container1 .infor .br5 {
+  width: 150px;
+  margin-top: -37px;
+  float: right;
+  position: relative;
+  top: 23px;
+  border-top: 4px solid #db1212;
+}
+#aboutus .container1 .infor button {
+  width: 335px;
+  height: 65px;
+  background: #db1212;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  border: none;
+  top: -10px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+#aboutus .container1 .grid3 {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 79px;
+  top: 120px;
+}
+#aboutus .container1 .grid3 .first1 {
+  cursor: pointer;
+}
+#aboutus .container1 .grid3 h1 {
+  font-size: 48px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #29293a;
+  margin: 0;
+}
+#aboutus .container1 .grid3 p {
+  margin: 0;
+  padding-top: 11px;
+  font-weight: 300;
+  font-size: 19px;
+  word-spacing: 1px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#aboutus .container1 .grid3 .circle {
+  height: 73px;
+  width: 75px;
+  position: relative;
+  top: -237px;
+  left: 234px;
+  border: 5px solid #db1212;
+  border-radius: 50%;
+}
+#aboutus .container1 .grid3 .circle .overlay {
+  height: 73px;
+  width: 75px;
+  position: absolute;
+  color: #fff;
+  top: -5px;
+  left: -5px;
+  border: 5px solid;
+  border-radius: 50%;
+}
+#aboutus .container1 .grid3 .circle:hover .overlay {
+  width: 100px;
+  height: 100px;
+  top: -18px;
+  left: -18px;
+  transition: all .2s linear;
+  opacity: 0;
+}
+#aboutus .container1 .grid3 .circle:hover i {
+  color: #db1212;
+  transition: all .2s linear;
+}
+#aboutus .container1 .grid3 .circle i {
+  position: absolute;
+  top: 23px;
+  left: 27px;
+  font-size: 30px;
+  color: #fff;
+}
+#aboutus .container1 .grid3 .opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 569px;
+  height: 381px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#shop {
+  position: relative;
+  top: 381px;
+  width: 100%;
+  background: #fff;
+  height: 1450px;
+}
+#shop .head {
+  text-align: center;
+}
+#shop .head h1 {
+  margin: 0;
+  font-weight: 600;
+  margin-top: 155px;
+  font-size: 50px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#shop .grid4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 550px;
+  grid-gap: 30px;
+  grid-row-gap: 150px;
+}
+#shop .grid4 .hd1 {
+  padding-left: 132px;
+  margin-top: 0px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-weight: 400;
+}
+#shop .grid4 .h1_ {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-size: 23px;
+  font-weight: 400;
+  margin-left: 35px;
+  margin-top: 80px;
+}
+#shop .grid4 .h2_ {
+  margin-top: 0px;
+  padding-left: 128px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-weight: 400;
+}
+#shop .grid4 .he1 {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-size: 23px;
+  font-weight: 400;
+  margin-left: 97px;
+  margin-top: 182px;
+}
+#shop .grid4 .sh {
+  text-align: center;
+  position: relative;
+  top: 60px;
+  height: 73px;
+  width: 210px;
+  left: 50px;
+}
+#shop .grid4 .sh:hover button {
+  transition: all .2s ease;
+  background: transparent;
+  color: #db1212;
+}
+#shop .grid4 .sh:hover .br6 {
+  width: 210px;
+  transition: all .4s ease;
+}
+#shop .grid4 .sh:hover .br7 {
+  width: 210px;
+  transition: all .4s ease;
+}
+#shop .grid4 .sh1 {
+  text-align: center;
+  position: relative;
+  top: 60px;
+  height: 73px;
+  width: 210px;
+  left: 80px;
+}
+#shop .grid4 .sh1:hover button {
+  transition: all .2s ease;
+  background: transparent;
+  color: #db1212;
+}
+#shop .grid4 .sh1:hover .br6 {
+  width: 210px;
+  transition: all .4s ease;
+}
+#shop .grid4 .sh1:hover .br7 {
+  width: 210px;
+  transition: all .4s ease;
+}
+#shop .grid4 .br6 {
+  width: 100px;
+  height: 0px;
+  margin-top: -4px;
+  position: relative;
+  top: 4px;
+  border-top: 4px solid #db1212;
+}
+#shop .grid4 button {
+  width: 210px;
+  height: 65px;
+  background: #db1212;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+}
+#shop .grid4 .br7 {
+  width: 100px;
+  margin-top: -37px;
+  float: right;
+  position: relative;
+  top: 33px;
+  border-top: 4px solid #db1212;
+}
+#shop .grid4 div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+  transition: all .4s ease;
+}
+#shop .grid4 div .he {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-size: 23px;
+  font-weight: 400;
+  margin-left: 97px;
+  margin-top: 60px;
+}
+#shop .grid4 div h1 {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-size: 23px;
+  font-weight: 400;
+  margin-left: 35px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+#shop .grid4 div h1:hover {
+  color: #db1212;
+  transition: all .4s ease;
+}
+#shop .grid4 div .dif {
+  padding-left: 49px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-weight: 400;
+}
+#shop .grid4 div .hd {
+  padding-left: 85px;
+  margin-top: 0px;
+  padding-left: 83px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-weight: 400;
+}
+#shop .grid4 div .par {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: 140px;
+}
+#shop .grid4 div .par1 {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: 98px;
+}
+#shop .grid4 div h2 {
+  margin-top: 0px;
+  padding-left: 61px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-weight: 400;
+  cursor: pointer;
+}
+#shop .grid4 div h2:hover {
+  color: #db1212;
+  transition: all .4s ease;
+}
+#shop .grid4 div p {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: 113px;
+}
+#shop .grid4:last-child img {
+  position: relative;
+  left: 80px;
+  top: 25px;
+}
+#shop .grid4 img {
+  position: relative;
+  cursor: pointer;
+  left: 60px;
+  top: 25px;
+}
+
+#blogpost {
+  background: #f3f3f9;
+  width: 100%;
+  height: 1150px;
+  position: relative;
+  top: 381px;
+}
+#blogpost .info2 {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+#blogpost .info2 img {
+  width: 100%;
+  position: relative;
+  top: -220px;
+}
+#blogpost .info2 .opacity {
+  position: relative;
+  top: -558px;
+  left: 0;
+  width: 100%;
+  height: 280px;
+  background: rgba(0, 0, 0, 0.61);
+}
+#blogpost .container1 input {
+  position: relative;
+  top: -729px;
+  left: 760px;
+  width: 350px;
+  height: 50px;
+  outline: none;
+}
+#blogpost .container1 .btn4 {
+  position: relative;
+  top: -723px;
+  left: 755px;
+  cursor: pointer;
+  padding: 0;
+  background: #db1212;
+  width: 200px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  height: 56px;
+  color: #fff;
+  margin: 0;
+  outline: none;
+  font-size: 23px;
+  border: none;
+}
+#blogpost .container1 .btn4:hover {
+  background: #000;
+  transition: all .4s linear;
+}
+#blogpost .container1 .opacitytext {
+  position: absolute;
+  top: 1264px;
+  margin: 0;
+  color: #fff;
+  font-size: 44px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#blogpost .container1 .txt {
+  text-align: center;
+  position: relative;
+  top: 140px;
+}
+#blogpost .container1 .txt h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 46px;
+  font-weight: 600;
+}
+#blogpost .container1 .grid5 {
+  position: relative;
+  top: 200px;
+  grid-gap: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 600px;
+}
+#blogpost .container1 .grid5 .news {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  position: relative;
+  top: -30px;
+  z-index: 1;
+}
+#blogpost .container1 .grid5 .news h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  position: relative;
+  top: 30px;
+  font-size: 25px;
+  left: 35px;
+}
+#blogpost .container1 .grid5 .news p {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  color: #828590;
+  padding-top: 55px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding-left: 36px;
+}
+#blogpost .container1 .grid5 .news .icon {
+  position: relative;
+  top: -25px;
+}
+#blogpost .container1 .grid5 .news .icon i {
+  font-size: 20px;
+  color: gray;
+  position: relative;
+  top: 75px;
+  left: 40px;
+}
+#blogpost .container1 .grid5 .news .icon span {
+  position: relative;
+  top: 75px;
+  left: 46px;
+  font-size: 18px;
+  color: gray;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#blogpost .container1 .grid5 .news .icon1 {
+  position: relative;
+  top: -25px;
+}
+#blogpost .container1 .grid5 .news .icon1 i {
+  font-size: 20px;
+  color: gray;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+#blogpost .container1 .grid5 .news .icon1 span {
+  position: relative;
+  top: 50px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  color: gray;
+  left: 50px;
+}
+#blogpost .container1 .grid5 .news .icon2 {
+  position: relative;
+  top: -25px;
+}
+#blogpost .container1 .grid5 .news .icon2 i {
+  font-size: 20px;
+  color: gray;
+  position: relative;
+  top: 105px;
+  left: 42px;
+}
+#blogpost .container1 .grid5 .news .icon2 span {
+  font-size: 18px;
+  color: gray;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  position: relative;
+  top: 104px;
+  left: 52px;
+}
+#blogpost .container1 .grid5 .tips {
+  width: 98px;
+  position: relative;
+  height: 25px;
+  background: #db1212;
+  top: -19px;
+  left: 34px;
+  z-index: 2;
+}
+#blogpost .container1 .grid5 .tips h6 {
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  padding-top: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+#blogpost .container1 .grid5 .image {
+  overflow: hidden;
+}
+#blogpost .container1 .grid5 .btndiv {
+  text-align: center;
+  position: relative;
+  top: 55px;
+  height: 73px;
+  width: 335px;
+  left: 480px;
+}
+#blogpost .container1 .grid5 .btndiv:hover .br8 {
+  width: 334px;
+  transition: all .6s ease;
+}
+#blogpost .container1 .grid5 .btndiv:hover button {
+  transition: all .2s ease;
+  background: transparent;
+  color: #db1212;
+}
+#blogpost .container1 .grid5 .btndiv:hover .br9 {
+  width: 334px;
+  transition: all .6s ease;
+}
+#blogpost .container1 .grid5 .btndiv .br8 {
+  width: 150px;
+  height: 0px;
+  margin-top: -4px;
+  position: relative;
+  top: -6px;
+  border-top: 4px solid #db1212;
+}
+#blogpost .container1 .grid5 .btndiv button {
+  width: 335px;
+  height: 65px;
+  background: #db1212;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  border: none;
+  top: -10px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+#blogpost .container1 .grid5 .btndiv .br9 {
+  width: 150px;
+  margin-top: -37px;
+  float: right;
+  position: relative;
+  top: 23px;
+  border-top: 4px solid #db1212;
+}
+#blogpost .container1 .grid5 div img {
+  width: 100%;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .4s linear;
+}
+#blogpost .container1 .grid5 div img:hover {
+  transform: scale(1);
+  transition: all .4s linear;
+}
+
+#services {
+  position: relative;
+  top: 661px;
+  width: 100%;
+  height: 740px;
+}
+#services .rightimg {
+  float: right;
+  position: relative;
+  top: 0px;
+  width: 36%;
+  overflow: hidden;
+}
+#services .rightimg img {
+  float: right;
+  position: relative;
+  transform: scale(1.1);
+  top: 35px;
+  height: 747px;
+  position: relative;
+}
+#services .flex {
+  width: 840px;
+  position: relative;
+  left: 112px;
+  top: 170px;
+  display: flex;
+  flex-direction: row;
+  height: 240px;
+}
+#services .flex ._flex {
+  width: 380px;
+}
+#services .flex ._flex i {
+  color: #db1212;
+  font-size: 60px;
+}
+#services .flex ._flex p {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  position: relative;
+  top: -25px;
+  color: #828590;
+  line-height: 27px;
+  padding-left: 85px;
+  font-weight: 100;
+  width: 235px;
+}
+#services .flex ._flex h2 {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  float: right;
+  padding-right: 174px;
+  padding-top: 0px;
+  font-size: 21px;
+}
+#services .flex ._flex1 {
+  width: 380px;
+}
+#services .flex ._flex1 i {
+  color: #db1212;
+  font-size: 60px;
+}
+#services .flex ._flex1 p {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  color: #828590;
+  position: relative;
+  left: 81px;
+  font-weight: 100;
+  top: -26px;
+  width: 235px;
+  line-height: 27px;
+}
+#services .flex ._flex1 h2 {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  float: right;
+  padding-right: 82px;
+  padding-top: 0px;
+  font-size: 21px;
+}
+#services .flex1 {
+  width: 840px;
+  position: relative;
+  left: 112px;
+  height: 240px;
+  top: 170px;
+  display: flex;
+  flex-direction: row;
+}
+#services .flex1 ._flex2 {
+  width: 380px;
+}
+#services .flex1 ._flex2 i {
+  color: #db1212;
+  font-size: 60px;
+}
+#services .flex1 ._flex2 h2 {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  float: right;
+  padding-right: 206px;
+  padding-top: 0px;
+  font-size: 21px;
+}
+#services .flex1 ._flex2 p {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  width: 235px;
+  position: relative;
+  color: #828590;
+  left: 85px;
+  top: -23px;
+  line-height: 27px;
+}
+#services .flex1 ._flex2_ {
+  width: 380px;
+}
+#services .flex1 ._flex2_ i {
+  color: #db1212;
+  font-size: 60px;
+}
+#services .flex1 ._flex2_ h2 {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  float: right;
+  padding-right: 35px;
+  padding-top: 0px;
+  font-size: 21px;
+}
+#services .flex1 ._flex2_ p {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  width: 235px;
+  position: relative;
+  color: #828590;
+  left: 82px;
+  top: -23px;
+  line-height: 27px;
+}
+#services .servicemenu {
+  float: left;
+  width: 972px;
+  height: 500px;
+}
+#services .servicemenu h1 {
+  margin: 0;
+  position: relative;
+  top: 100px;
+  font-size: 45px;
+  left: 110px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#members {
+  position: relative;
+  top: 661px;
+  width: 100%;
+  height: 1409px;
+  background: #f3f3f9;
+}
+#members .map {
+  position: absolute;
+  top: 1364px;
+  width: 100%;
+}
+#members .map .element {
+  position: relative;
+  top: -228px;
+  width: 500px;
+  left: 851px;
+}
+#members .map .element i {
+  color: darkgrey;
+  font-size: 1.5em;
+  position: relative;
+  top: 4px;
+}
+#members .map .element span {
+  position: absolute;
+  top: -21px;
+  left: 25px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 4.4em;
+  color: #444454;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#members .map .element span:hover {
+  color: #db1212;
+  transition: all .3s ease-in-out;
+}
+#members .map .right {
+  position: absolute;
+  top: 325px;
+  left: 852px;
+}
+#members .map .right i {
+  color: darkgrey;
+  font-size: 1.5em;
+  position: relative;
+  top: 4px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+#members .map .right i:hover {
+  color: black;
+  transition: all .3s ease-in-out;
+}
+#members .map .element1 {
+  position: relative;
+  top: -211px;
+  width: 500px;
+  left: 853px;
+}
+#members .map .element1 i {
+  color: darkgrey;
+  font-size: 1.5em;
+  position: relative;
+  top: 4px;
+}
+#members .map .element1 span {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #828590;
+  font-weight: 100;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+  left: 17px;
+}
+#members .map .element1 span:hover {
+  color: #db1212;
+  transition: all .3s ease-in-out;
+}
+#members .map .element2 {
+  position: relative;
+  top: -196px;
+  width: 500px;
+  left: 850px;
+}
+#members .map .element2 i {
+  color: darkgrey;
+  font-size: 1.5em;
+  position: relative;
+  top: 4px;
+}
+#members .map .element2 span {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  left: 11px;
+  cursor: pointer;
+  color: #db1212;
+}
+#members .map .element2 span:hover {
+  color: #828590;
+  transition: all 0.3s ease-in-out;
+}
+#members .map img {
+  width: 50%;
+}
+#members .map h5 {
+  margin: 0;
+  position: absolute;
+  top: 140px;
+  font-size: 27px;
+  left: 850px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#members .grid6 {
+  position: absolute;
+  top: 870px;
+  width: 100%;
+  display: grid;
+  grid-auto-rows: 269px;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#members .grid6 > div {
+  overflow: hidden;
+  z-index: 1;
+}
+#members .grid6 > div .wrapper1 {
+  height: 100%;
+  cursor: pointer;
+}
+#members .grid6 > div .wrapper1:hover img {
+  transform: scale(1);
+  transition: all .4s linear;
+}
+#members .grid6 > div .wrapper1:hover .overlay2 {
+  transform: translateX(0px);
+}
+#members .grid6 > div .wrapper1:hover .overlay2 h2 {
+  transition: all .3s ease;
+  left: 24px;
+}
+#members .grid6 > div .wrapper1:hover .overlay2 p {
+  transition: all .3s ease;
+  left: 24px;
+}
+#members .grid6 > div .wrapper1 .overlay2 {
+  background: rgba(255, 0, 0, 0.7);
+  height: 100%;
+  transform: translateX(379px);
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  top: -274px;
+}
+#members .grid6 > div .wrapper1 .overlay2 h2 {
+  color: #fff;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+#members .grid6 > div .wrapper1 .overlay2 p {
+  color: #fff;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 82px;
+  left: 62px;
+  width: 57%;
+  line-height: 30px;
+  font-weight: 100;
+}
+#members .grid6 > div .wrapper1 .overlay2 i {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 232px;
+  right: 13px;
+}
+#members .grid6 img {
+  width: 100%;
+  transform: scale(1.1);
+  transition: all .4s linear;
+  cursor: pointer;
+}
+#members .sh {
+  text-align: center;
+  position: relative;
+  top: 289px;
+  height: 73px;
+  width: 240px;
+  left: 530px;
+}
+#members .sh:hover .br6 {
+  width: 240px;
+  transition: all .4s ease;
+}
+#members .sh:hover .br7 {
+  width: 240px;
+  transition: all .4s ease;
+}
+#members .sh:hover button {
+  transition: all .2s ease;
+  background: transparent;
+  color: #db1212;
+}
+#members .br6 {
+  width: 100px;
+  height: 0px;
+  margin-top: -4px;
+  position: relative;
+  top: 4px;
+  border-top: 4px solid #db1212;
+}
+#members button {
+  width: 240px;
+  height: 65px;
+  background: #db1212;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  border: none;
+  font-weight: 600;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+}
+#members .br7 {
+  width: 100px;
+  margin-top: -37px;
+  float: right;
+  position: relative;
+  top: 33px;
+  border-top: 4px solid #db1212;
+}
+#members h1 {
+  color: #29293a;
+  padding: 0;
+  margin: 0;
+  font-size: 43px;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 125px;
+}
+#members h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  color: #db1212;
+  cursor: pointer;
+}
+#members h2:hover {
+  color: black;
+  transition: all .6s ease;
+}
+#members .inform {
+  position: relative;
+  top: 20px;
+}
+#members span {
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #828590;
+  font-weight: 100;
+  position: relative;
+  top: 8px;
+}
+#members .griditem {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+  top: 200px;
+  grid-gap: 30px;
+}
+#members .griditem .firstitem:hover .overlay1 {
+  transform: translateY(0px);
+  transition: all .5s ease;
+}
+#members .griditem .firstitem:hover .overlay1 i:hover {
+  cursor: pointer;
+  color: black;
+  transition: all .4s ease;
+}
+#members .griditem .seconditem:hover .overlay1 {
+  transform: translateY(0px);
+  transition: all .5s ease;
+}
+#members .griditem .seconditem:hover .overlay1 i:hover {
+  cursor: pointer;
+  color: black;
+  transition: all .4s ease;
+}
+#members .griditem .thirditem:hover .overlay1 {
+  transform: translateY(0px);
+  transition: all .5s ease;
+}
+#members .griditem .thirditem:hover .overlay1 i:hover {
+  cursor: pointer;
+  color: black;
+  transition: all .4s ease;
+}
+#members .griditem .fourthitem:hover .overlay1 {
+  transform: translateY(0px);
+  transition: all .5s ease;
+}
+#members .griditem .fourthitem:hover .overlay1 i:hover {
+  cursor: pointer;
+  color: black;
+  transition: all .4s ease;
+}
+#members .griditem .wrapper {
+  height: 300px;
+  overflow: hidden;
+}
+#members .griditem img {
+  width: 100%;
+}
+#members .griditem .overlay1 {
+  width: 100%;
+  height: 67px;
+  position: relative;
+  transform: translateY(66px);
+  background: rgba(255, 0, 0, 0.4);
+  top: -71px;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+#members .griditem .overlay1 i:first-child {
+  font-size: 23px;
+  color: #fff;
+  position: relative;
+  top: 22px;
+  left: 100px;
+}
+#members .griditem .overlay1 i:nth-child(2) {
+  font-size: 22px;
+  color: #fff;
+  position: relative;
+  top: 22px;
+  left: 127px;
+}
+#members .griditem .overlay1 i:last-child {
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  top: 22px;
+  left: 151px;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  top: 1031px;
+  height: 700px;
+  overflow: hidden;
+}
+#footer .img1 {
+  width: 100%;
+  height: 700px;
+  transform: scale(1.2);
+}
+#footer .overflow {
+  position: relative;
+  top: -707px;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background: rgba(0, 0, 0, 0.75);
+}
+#footer .gridlast {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  top: 130px;
+}
+#footer .gridlast .namebox {
+  width: 300px;
+  margin-left: 130px;
+  background: rgba(255, 255, 255, 0.1);
+  height: 50px;
+  border-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  margin-top: 52px;
+}
+#footer .gridlast .mailbox {
+  width: 300px;
+  margin-left: 130px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+  margin-top: 10px;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+#footer .gridlast button {
+  position: relative;
+  top: 16px;
+  border: none;
+  height: 50px;
+  width: 140px;
+  left: 133px;
+  background: #db1212;
+  color: #fff;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#footer .gridlast button:hover {
+  background: #342737;
+  transition: all .3s linear;
+}
+#footer .gridlast .messagebox {
+  width: 300px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 130px;
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.1);
+  height: 130px;
+}
+#footer .gridlast .footimage {
+  margin-left: 197px;
+  margin-top: 70px;
+}
+#footer .gridlast h2 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#footer .gridlast .wrapping {
+  display: flex;
+  flex-direction: column;
+}
+#footer .gridlast .wrapping .wrap1 {
+  width: 90%;
+  height: 150px;
+  position: relative;
+  left: 140px;
+  top: 38px;
+}
+#footer .gridlast .wrapping .wrap1 h5 {
+  margin: 0;
+  color: #db1212;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: -57px;
+  margin-left: 115px;
+  font-size: 19px;
+  width: 100%;
+  cursor: pointer;
+}
+#footer .gridlast .wrapping .wrap1 h5:hover {
+  color: #fff;
+  transition: all .3s ease;
+}
+#footer .gridlast .wrapping .wrap1 span {
+  margin: 0;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: 51px;
+  color: #828590;
+  line-height: 25px;
+  margin-left: 118px;
+  position: relative;
+  top: 5px;
+}
+#footer .gridlast .wrapping .wrap1 img {
+  width: 16%;
+  height: 45%;
+  position: relative;
+  top: 20px;
+  left: 6px;
+}
+#footer .gridlast .wrapping .wrap2 {
+  width: 90%;
+  height: 150px;
+  position: relative;
+  left: 140px;
+  top: 20px;
+}
+#footer .gridlast .wrapping .wrap2 h5 {
+  margin: 0;
+  color: #db1212;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: -57px;
+  margin-left: 115px;
+  font-size: 19px;
+  cursor: pointer;
+  width: 100%;
+}
+#footer .gridlast .wrapping .wrap2 h5:hover {
+  color: #fff;
+  transition: all .3s ease;
+}
+#footer .gridlast .wrapping .wrap2 span {
+  margin: 0;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: 51px;
+  color: #828590;
+  line-height: 25px;
+  margin-left: 118px;
+  position: relative;
+  top: 5px;
+}
+#footer .gridlast .wrapping .wrap2 img {
+  width: 16%;
+  height: 45%;
+  position: relative;
+  top: 20px;
+  left: 6px;
+}
+#footer .gridlast .wrapping .wrap3 {
+  width: 90%;
+  height: 150px;
+  position: relative;
+  left: 140px;
+}
+#footer .gridlast .wrapping .wrap3 h5 {
+  margin: 0;
+  color: #db1212;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: -57px;
+  cursor: pointer;
+  margin-left: 115px;
+  font-size: 19px;
+  width: 100%;
+}
+#footer .gridlast .wrapping .wrap3 h5:hover {
+  color: #fff;
+  transition: all .3s ease;
+}
+#footer .gridlast .wrapping .wrap3 span {
+  margin: 0;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: 51px;
+  color: #828590;
+  line-height: 25px;
+  margin-left: 118px;
+  position: relative;
+  top: 5px;
+}
+#footer .gridlast .wrapping .wrap3 img {
+  width: 16%;
+  height: 45%;
+  position: relative;
+  top: 20px;
+  left: 6px;
+}
+#footer .gridlast h4 {
+  margin: 0;
+  color: #fff;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: 40px;
+  color: #828590;
+  line-height: 25px;
+  margin-left: 52px;
+}
+#footer .gridlast p {
+  margin: 0;
+  color: #fff;
+  font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: 51px;
+  color: #828590;
+  line-height: 25px;
+  margin-left: 194px;
+}

@@ -1,0 +1,361 @@
+ #goods {
+     height: 950px;
+     width: 100%;
+     background: rgb(243, 243, 249);
+     .grid {
+         position: relative;
+         top: 55px;
+         width: 100%;
+         grid-gap: 19px;
+         display: inline-flex;
+         h3 {
+             margin: 0;
+             line-height: 2;
+             margin-left: 19px;
+             font-family: $mainFont;
+         }
+         div:first-child {
+             width: 625px;
+             background: #fff;
+             height: 482px;
+             .back1{
+                position: absolute;
+                cursor: pointer;
+                transition: all .3s linear;
+                top: 0;
+                left: 0;
+             }
+             .up {
+                background: white;
+                position: relative;
+                top: -48px;
+                height: 43px;
+                h1 {
+                    padding: 0;
+                    margin: 0;
+                    padding-left: 22px;
+                    font-size: 24px;
+                    font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                    line-height: 1.7;
+                }
+            }
+            .dropup {
+                visibility: hidden;
+                position: relative;
+                top: -50px;
+                height: 100px;
+                h1 {
+                    padding: 0;
+                    margin: 0;
+                    background: $colorFirst;
+                    font-family: $mainFont;
+                    color: #fff;
+                    font-size: 22px;
+                    padding-left: 23px;
+                }
+                p {
+                    padding: 0;
+                    padding-left: 23px;
+                    padding-top: 3px;
+                    margin: 0;
+                    height: 120px;
+                    font-size: 19px;
+                    background: $colorFirst;
+                    color: #fff;
+                    font-family: $mainFont;
+                }
+            }
+             img {
+                 width: 100%;
+             }
+         }
+         div:nth-child(2) {
+             width: 294px;
+             position: relative;
+             left: 40px;
+             background: #fff;
+             &:hover {
+                 .btn2 {
+                     left: 68px;
+                     visibility: visible;
+                     transition: all .2s linear;
+                 }
+                 .btn3 {
+                     left: 68px;
+                     visibility: visible;
+                     transition: all .3s linear;
+                 }
+             }
+             .par1 {
+                 margin: 0;
+                 padding-top: 11px;
+                 padding-left: 21px;
+                 font-size: 21px;
+                 font-weight: bold;
+                 font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+             }
+             .par {
+                 margin: 0;
+                 padding-left: 20px;
+                 font-size: 17px;
+                 padding-top: 32px;
+                 font-family: $mainFont;
+                 font-weight: 300;
+             }
+             .sale {
+                 width: 50px;
+                 height: 25px;
+                 background: #db1212;
+                 position: relative;
+                 top: 21px;
+                 font-family: $mainFont;
+                 text-align: center;
+                 left: 19px;
+                 font-size: 15px;
+                 font-weight: 700;
+                 color: #fff;
+                 line-height: 1.6;
+             }
+             img {
+                 margin-top: 3px;
+                 width: 70%;
+                 margin-left: 47px;
+             }
+             .btn3 {
+                 padding: 0;
+                 width: 170px;
+                 position: relative;
+                 top: 178px;
+                 color: #fff;
+                 left: 51px;
+                 font-family: $mainFont;
+                 background: darkgrey;
+                 font-weight: bold;
+                 border: none;
+                 height: 42px;
+                 cursor: pointer;
+                 visibility: hidden;
+                 &:hover {
+                     background: #342737;
+                     transition: all .3s ease;
+                 }
+             }
+             .btn2 {
+                 padding: 0;
+                 width: 170px;
+                 position: relative;
+                 top: 169px;
+                 color: #fff;
+                 left: 51px;
+                 font-family: $mainFont;
+                 background: $colorFirst;
+                 font-weight: bold;
+                 border: none;
+                 height: 42px;
+                 cursor: pointer;
+                 visibility: hidden;
+                 &:hover {
+                     background: #342737;
+                     transition: all .3s ease;
+                 }
+             }
+         }
+        
+         div:last-child {
+             position: relative;
+             left: 80px;
+             width: 293px;
+             background: #fff;
+             &:hover {
+                 .btn2 {
+                     left: 68px;
+                     visibility: visible;
+                     transition: all .2s linear;
+                 }
+                 .btn3 {
+                     left: 68px;
+                     visibility: visible;
+                     transition: all .3s linear;
+                 }
+             }
+             .par1 {
+                 margin: 0;
+                 padding-top: 11px;
+                 padding-left: 21px;
+                 font-size: 21px;
+                 font-weight: bold;
+                 font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+             }
+             .par {
+                 margin: 0;
+                 padding-left: 20px;
+                 font-size: 17px;
+                 padding-top: 32px;
+                 font-family: $mainFont;
+                 font-weight: 300;
+             }
+             .sale {
+                 width: 50px;
+                 height: 25px;
+                 background: #db1212;
+                 position: relative;
+                 top: 21px;
+                 font-family: $mainFont;
+                 text-align: center;
+                 left: 19px;
+                 font-size: 15px;
+                 font-weight: 700;
+                 color: #fff;
+                 line-height: 1.6;
+             }
+             img {
+                 margin-top: 3px;
+                 width: 70%;
+                 margin-left: 47px;
+             }
+             .btn3 {
+                 padding: 0;
+                 width: 170px;
+                 position: relative;
+                 top: 178px;
+                 color: #fff;
+                 left: 51px;
+                 font-family: $mainFont;
+                 background: darkgrey;
+                 font-weight: bold;
+                 border: none;
+                 height: 42px;
+                 visibility: hidden;
+                 cursor: pointer;
+                 &:hover {
+                     background: #342737;
+                     transition: all .3s ease;
+                 }
+             }
+             .btn2 {
+                 padding: 0;
+                 width: 170px;
+                 position: relative;
+                 top: 169px;
+                 color: #fff;
+                 left: 51px;
+                 cursor: pointer;
+                 font-family: $mainFont;
+                 background: $colorFirst;
+                 font-weight: bold;
+                 border: none;
+                 height: 42px;
+                 visibility: hidden;
+                 &:hover {
+                     background: #342737;
+                     transition: all .3s ease;
+                 }
+             }
+         }
+         div:nth-child(1){ 
+             height: 480px;
+             overflow: hidden;
+             position: relative;
+             img{
+                 transition: all .3s linear;
+             }
+             &:hover{
+                 img{
+                     margin-top: -50px;
+                 }
+                 .down{
+                     bottom: 0px;
+                 }
+             }
+         }
+         .down{ 
+             background-color: $colorFirst;
+             position: absolute;
+             bottom: -130px;
+             left: 0px;
+             color: #fff;
+             font-family: $mainFont;
+             transition: all .3s linear;
+             p{
+                margin-left: 19px;
+                margin-top: 4px;
+                font-weight: 400;
+             }
+         }
+     }
+     .grid1 {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-auto-rows: 270px;
+         grid-gap: 40px;
+         img {
+             width: 100%;
+         }
+         >div {
+             overflow: hidden;
+             position: relative;
+             height: 350px;
+             .back {
+                 position: absolute;
+                 cursor: pointer;
+                 transition: all .3s linear;
+                 top: 0;
+                 left: 0;
+                 .up {
+                     background: white;
+                     position: relative;
+                     top: -48px;
+                     height: 43px;
+                     h1 {
+                         padding: 0;
+                         margin: 0;
+                         padding-left: 22px;
+                         font-size: 24px;
+                         font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                         line-height: 1.7;
+                     }
+                 }
+                 .dropup {
+                     visibility: hidden;
+                     position: relative;
+                     top: -50px;
+                     height: 100px;
+                     h1 {
+                         padding: 0;
+                         margin: 0;
+                         background: $colorFirst;
+                         font-family: $mainFont;
+                         color: #fff;
+                         font-size: 22px;
+                         padding-left: 23px;
+                     }
+                     p {
+                         padding: 0;
+                         padding-left: 23px;
+                         padding-top: 3px;
+                         margin: 0;
+                         height: 120px;
+                         font-size: 19px;
+                         background: $colorFirst;
+                         color: #fff;
+                         font-family: $mainFont;
+                     }
+                 }
+             }
+             &:hover {
+                 .back {
+                     top: - 50px;
+                     transition: all .3s linear;
+                 }
+                 .up {
+                     visibility: hidden;
+                 }
+                 .dropup {
+                     visibility: visible;
+                     transition: all .3s linear;
+                     top: -153px;
+                 }
+             }
+         }
+     }
+ }

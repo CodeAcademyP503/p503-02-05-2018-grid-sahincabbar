@@ -1,0 +1,221 @@
+#shop {
+    position: relative;
+    top: 381px;
+    width: 100%;
+    background: #fff;
+    height: 1450px;
+    .head {
+        text-align: center;
+        h1 {
+            margin: 0;
+            font-weight: 600;
+            margin-top: 155px;
+            font-size: 50px;
+            font-family: $mainFont;
+        }
+    }
+    .grid4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 550px;
+        grid-gap: 30px;
+        grid-row-gap: 150px;
+        .hd1 {
+            padding-left: 132px;
+            margin-top: 0px;
+            font-family: $mainFont;
+            margin: 0;
+            font-weight: 400;
+        }
+        .h1_{
+                font-family: $mainFont;
+                margin: 0;
+                font-size: 23px;
+                font-weight: 400;
+                margin-left: 35px;
+                margin-top: 80px;
+        }
+        .h2_{
+            margin-top: 0px;
+            padding-left: 128px;
+            font-family: $mainFont;
+            margin: 0;
+            font-weight: 400;
+        }
+        .he1 {
+            font-family: $mainFont;
+            margin: 0;
+            font-size: 23px;
+            font-weight: 400;
+            margin-left: 97px;
+            margin-top: 182px;
+        }
+        .sh {
+            text-align: center;
+            position: relative;
+            top: 60px;
+            height: 73px;
+            width: 210px;
+            left: 50px;
+            &:hover {
+                button {
+                    transition: all .2s ease;
+                    background: transparent;
+                    color: #db1212;
+                }
+                .br6 {
+                    width: 210px;
+                    transition: all .4s ease;
+                }
+                .br7 {
+                    width: 210px;
+                    transition: all .4s ease;
+                }
+            }
+        }
+        .sh1 {
+            text-align: center;
+            position: relative;
+            top: 60px;
+            height: 73px;
+            width: 210px;
+            left: 80px;
+            &:hover {
+                button {
+                    transition: all .2s ease;
+                    background: transparent;
+                    color: #db1212;
+                }
+                .br6 {
+                    width: 210px;
+                    transition: all .4s ease;
+                }
+                .br7 {
+                    width: 210px;
+                    transition: all .4s ease;
+                }
+            }
+        }
+        .br6 {
+            width: 100px;
+            height: 0px;
+            margin-top: -4px;
+            position: relative;
+            top: 4px;
+            border-top: 4px solid #db1212;
+        }
+        button {
+            width: 210px;
+            height: 65px;
+            background: #db1212;
+            color: #fff;
+            font-size: 18px;
+            position: relative;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            overflow: hidden;
+            outline: none;
+            cursor: pointer;
+        }
+        .br7 {
+            width: 100px;
+            margin-top: -37px;
+            float: right;
+            position: relative;
+            top: 33px;
+            border-top: 4px solid #db1212;
+        }
+     
+        div {
+            &:hover{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+                transition: all .4s ease;
+            }
+            .he {
+                font-family: $mainFont;
+                margin: 0;
+                font-size: 23px;
+                font-weight: 400;
+                margin-left: 97px;
+                margin-top: 60px;
+            }
+            h1 {
+                font-family: $mainFont;
+                margin: 0;
+                font-size: 23px;
+                font-weight: 400;
+                margin-left: 35px;
+                margin-top: 60px;
+                cursor: pointer;
+                &:hover{
+                    color: $colorFirst;
+                    transition: all .4s ease;
+                }
+            }
+            .dif {
+                padding-left: 49px;
+                font-family: $mainFont;
+                margin: 0;
+                font-weight: 400;
+            }
+            .hd {
+                padding-left: 85px;
+                margin-top: 0px;
+                padding-left: 83px;
+                font-family: $mainFont;
+                margin: 0;
+                font-weight: 400;
+            }
+            .par {
+                font-family: $mainFont;
+                margin: 0;
+                font-size: 27px;
+                font-weight: bold;
+                margin-top: 25px;
+                margin-left: 140px;
+            }
+            .par1 {
+                font-family: $mainFont;
+                margin: 0;
+                font-size: 27px;
+                font-weight: bold;
+                margin-top: 25px;
+                margin-left: 98px;
+            }
+            h2 {
+                margin-top: 0px;
+                padding-left: 61px;
+                font-family: $mainFont;
+                margin: 0;
+                font-weight: 400;
+                cursor: pointer;
+                &:hover{
+                    color: $colorFirst;
+                    transition: all .4s ease;
+                }
+            }
+            p {
+                font-family: $mainFont;
+                margin: 0;
+                font-size: 27px;
+                font-weight: bold;
+                margin-top: 25px;
+                margin-left: 113px;
+            }
+        }
+        &:last-child {
+            img {
+                position: relative;
+                left: 80px;
+                top: 25px;
+            }
+        }
+        img {
+            position: relative;
+            cursor: pointer;
+            left: 60px;
+            top: 25px;
+        }
+    }
+}

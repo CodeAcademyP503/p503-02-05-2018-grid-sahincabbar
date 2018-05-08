@@ -1,0 +1,56 @@
+#navbar {
+    .container {
+        .logo {
+            height: 150px;
+            img {
+                margin-top: 56px;
+            }
+        }
+        .nav {
+            height: 20px;
+            margin-top: -169px;
+            float: right;
+            margin-left: 88px;
+            line-height: 8;
+            ul {
+                font-family: $mainFont;
+                font-size: 19px;
+                letter-spacing: 1px;
+                font-weight: 600;
+                cursor: pointer;
+                li {
+                    display: inline-block;
+                    padding-left: 33px;
+                    i {
+                        font-size: 14px;
+                    }
+                    &:hover {
+                        color: $colorFirst;
+                        transition: $transition;
+                        i {
+                            transform: rotate(180deg);
+                            transition: all 0.3s ease-in-out;
+                        }
+                    }
+                }
+                .fir {
+                    color: $colorFirst;
+                }
+                .lg {
+                    width: 26px;
+                    margin-top: 2px;
+                    float: right;
+                    padding-left: 35px;
+                    height: 150px;
+                    i {
+                        font-size: 24px;
+                        &:hover {
+                            color: $colorFirst;
+                            transition: all 0.3s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,270 @@
+#events {
+    width: 100%;
+    height: 800px;
+    background: rgb(243, 243, 249);
+    .h1 {
+        margin: 0;
+        text-align: center;
+        font-size: 48px;
+        font-weight: bold;
+        font-family: $mainFont;
+        font-weight: 600;
+    }
+    .info {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+        top: -64px;
+        img {
+            width: 100%;
+            position: absolute;
+            top: -93px;
+            transform: scale(1.3);
+        }
+        .opacity {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 595px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+    }
+    .container1 {
+        position: relative;
+        top: 80px;
+        .info1 {
+            position: relative;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-auto-rows: 300px;
+            grid-gap: 15px;
+            >div{
+                text-align: center;
+            }
+            h1{
+                color: #fff;
+                font-size: 40px;
+                font-family: $mainFont;
+                margin: 0;
+                padding-top: 15px;
+            }
+            p{
+                margin: 0;
+                color: #fff;
+                font-family: $mainFont;
+                padding-top: 40px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            i{
+                color:darken($color: #fff, $amount: 50%);
+                font-size: 50px;
+                text-align: center;
+            }
+        }
+        .grid_2 {
+            div:first-child {
+                width: 408px;
+                height: 120px;
+                float: left;
+                h3 {
+                    font-size: 25px;
+                    padding-top: 15px;
+                    margin: 0;
+                    color: $colorFirst;
+                    font-family: $mainFont;
+                    cursor: pointer;
+                    &:hover {
+                        color: #000;
+                        transition: all .7s ease;
+                    }
+                }
+                p {
+                    font-size: 17px;
+                    color: darkgray;
+                }
+            }
+            div:nth-child(2) {
+                width: 408px;
+                height: 120px;
+                float: left;
+                margin-left: 33px;
+                h3 {
+                    font-size: 25px;
+                    padding-top: 15px;
+                    margin: 0;
+                    color: $colorFirst;
+                    font-family: $mainFont;
+                    cursor: pointer;
+                    &:hover {
+                        color: #000;
+                        transition: all .7s ease;
+                    }
+                }
+                p {
+                    font-size: 17px;
+                    color: darkgray;
+                }
+            }
+            div:last-child {
+                width: 408px;
+                height: 120px;
+                float: left;
+                margin-left: 34px;
+                h3 {
+                    font-size: 25px;
+                    padding-top: 15px;
+                    margin: 0;
+                    color: $colorFirst;
+                    font-family: $mainFont;
+                    cursor: pointer;
+                    &:hover {
+                        color: #000;
+                        transition: all .7s ease;
+                    }
+                }
+                p {
+                    font-size: 17px;
+                    color: darkgray;
+                }
+            }
+        }
+        .view {
+            text-align: center;
+            position: relative;
+            top: 60px;
+            height: 73px;
+            width: 230px;
+            left: 527px;
+            &:hover {
+                .br2 {
+                    width: 229px;
+                    transition: all .5s ease;
+                }
+                .br3 {
+                    width: 229px;
+                    transition: all .5s ease;
+                }
+            }
+            button {
+                width: 230px;
+                height: 65px;
+                background: #db1212;
+                color: #fff;
+                font-size: 18px;
+                position: relative;
+                border: none;
+                font-weight: 600;
+                cursor: pointer;
+                overflow: hidden;
+                outline: none;
+                &:hover {
+                    transition: all .2s ease;
+                    background: transparent;
+                    color: $colorFirst;
+                }
+            }
+            .br2 {
+                width: 60px;
+                height: 0px;
+                margin-top: -4px;
+                position: relative;
+                top: 4px;
+                border-top: 4px solid #db1212;
+            }
+            .br3 {
+                width: 60px;
+                margin-top: -37px;
+                float: right;
+                position: relative;
+                top: 33px;
+                border-top: 4px solid #db1212;
+            }
+        }
+        .grid2 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-auto-rows: 294px;
+            grid-gap: 35px;
+            .heading {
+                position: relative;
+                z-index: 5;
+                background: #f3f3f9;
+                font-size: 52px;
+                font-weight: bold;
+                width: 115px;
+                text-align: center;
+                font-family: $mainFont;
+                top: -8px;
+            }
+            h1 {
+                position: relative;
+                z-index: 5;
+                background: #f3f3f9;
+                margin: 0;
+                width: 115px;
+                font-family: $mainFont;
+                font-size: 16px;
+                height: 27px;
+                font-weight: 100;
+                text-align: center;
+                top: -8px;
+            }
+            >div {
+                img {
+                    width: 100%;
+                }
+            }
+            div:first-child {
+                overflow: hidden;
+                &:hover {
+                    img {
+                        transform: scale(1.0);
+                        height: 100%;
+                        transition: all 1s linear;
+                    }
+                }
+                img {
+                    cursor: pointer;
+                    position: relative;
+                    top: -97px;
+                    transform: scale(1.1);
+                }
+            }
+            div:nth-child(2) {
+                overflow: hidden;
+                &:hover {
+                    img {
+                        transform: scale(1.0);
+                        transition: all 1s linear;
+                        height: 100%;
+                    }
+                }
+                img {
+                    cursor: pointer;
+                    position: relative;
+                    top: -97px;
+                    transform: scale(1.1);
+                }
+            }
+            div:last-child {
+                overflow: hidden;
+                &:hover {
+                    img {
+                        transform: scale(1.0);
+                        transition: all 1s linear;
+                        height: 100%;
+                    }
+                }
+                img {
+                    cursor: pointer;
+                    position: relative;
+                    top: -97px;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

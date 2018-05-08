@@ -1,0 +1,277 @@
+#pic {
+    height: 749px;
+    background: rgb(243, 243, 249);
+    img {
+        width: 100%;
+    }
+    .pic {
+        position: relative;
+    }
+    .border1 {
+        margin-left: 540px;
+        height: 64px;
+        border-bottom: 2px solid #fff;
+        margin-top: -64px;
+        width: 52px;
+    }
+    .border {
+        margin-left: 70px;
+        height: 64px;
+        border-bottom: 2px solid #fff;
+        margin-top: -119px;
+        width: 52px;
+    }
+    .picture {
+        position: relative;
+        .opacity {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 99%;
+            background: rgba(0, 0, 0, .39);
+        }
+    }
+    .btn1 {
+        position: absolute;
+        top: 563px;
+        left: 556px;
+        overflow: hidden;
+        .but1 {
+            width: 230px;
+            height: 65px;
+            background: $colorFirst;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            overflow: hidden;
+            outline: none;
+            .br {
+                width: 28%;
+                height: 0px;
+                margin-top: -4px;
+                position: relative;
+                top: -17px;
+                left: -6px;
+                border-top: 4px solid #db1212;
+            }
+            .br1 {
+                width: 53%;
+                margin-top: -37px;
+                float: right;
+                position: relative;
+                top: 54px;
+                left: 6px;
+                border-top: 4px solid #db1212;
+            }
+            &:hover {
+                transition: all .2s ease;
+                background: transparent;
+                color: white;
+                .br {
+                    width: 105%;
+                    transition: all .5s ease;
+                }
+                .br1 {
+                    width: 105%;
+                    transition: all .5s ease;
+                }
+            }
+        }
+        .but {
+            width: 175px;
+            height: 65px;
+            background: #fff;
+            margin-left: 41px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            overflow: hidden;
+            outline: none;
+            .br2 {
+                width: 50%;
+                height: 0px;
+                margin-top: -4px;
+                position: relative;
+                top: -17px;
+                left: -5px;
+                border-top: 4px solid #fff;
+            }
+            .br3 {
+                width: 50%;
+                margin-top: -37px;
+                float: right;
+                position: relative;
+                top: 54px;
+                left: 5px;
+                border-top: 4px solid #fff;
+            }
+            &:hover {
+                transition: all .2s ease;
+                background: transparent;
+                color: white;
+                .br2 {
+                    width: 105%;
+                    transition: all .5s ease;
+                }
+                .br3 {
+                    width: 105%;
+                    transition: all .5s ease;
+                }
+            }
+        }
+    }
+    .container {
+        .book {
+            position: relative;
+            background: #fff;
+            top: -140px;
+            height: 250px;
+            h1 {
+                position: relative;
+                top: 23px;
+                margin-top: 40px;
+                margin-left: 40px;
+                letter-spacing: 1px;
+                font-weight: bold;
+                font-size: 25px;
+                font-family: $mainFont;
+            }
+        }
+        .booking {
+            width: 1205px;
+            margin-left: 43px;
+            margin-top: 50px;
+            height: 156px;
+            display: grid;
+            grid-gap: 29px;
+            grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+            .bb {
+                >span {
+                    color: darken(rgb(245, 245, 246), 50%);
+                    font-family: $mainFont;
+                    font-size: 15px;
+                }
+            }
+            .kv1 {
+                height: 65px;
+                margin-top: 13px;
+                border: 1px solid #dcd6d6;
+                position: relative;
+                cursor: pointer;
+            }
+            .kv3 {
+                cursor: pointer;
+                &:hover {
+                    background: #000;
+                    transition: all 0.3s ease-in;
+                }
+                p {
+                    font-size: 23px;
+                    text-align: center;
+                    color: white;
+                    font-weight: 600;
+                    font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                    padding-top: 16px;
+                }
+            }
+            .kv2 {
+                height: 65px;
+                margin-top: 13px;
+                width: 167px;
+                border: 1px solid #dcd6d6;
+                position: relative;
+                span {
+                    margin-top: 2px;
+                }
+                .i {
+                    margin-top: 25px;
+                    text-align: center;
+                    h5 {
+                        width: 125px;
+                        font-size: 19px;
+                        font-weight: 400;
+                        margin-top: -6px;
+                        color: black;
+                    }
+                    i:first-child {
+                        float: left;
+                        margin-left: 25px;
+                        margin-top: 7px;
+                        color: $colorFirst;
+                        cursor: pointer;
+                        &:hover {
+                            color: #000;
+                            transition: all .3s ease;
+                        }
+                    }
+                    i:last-child {
+                        float: right;
+                        margin-right: 25px;
+                        margin-top: -51px;
+                        color: $colorFirst;
+                        cursor: pointer;
+                        &:hover {
+                            color: #000;
+                            transition: all .3s ease;
+                        }
+                    }
+                }
+            }
+            .kv3 {
+                height: 65px;
+                margin-top: 33px;
+                background: $colorFirst;
+                position: relative;
+                cursor: pointer;
+            }
+            .i {
+                margin-top: 25px;
+            }
+            .kv {
+                height: 65px;
+                margin-top: 13px;
+                border: 1px solid #dcd6d6;
+                position: relative;
+                cursor: pointer;
+                p {
+                    line-height: 29px;
+                    margin-left: 13px;
+                    font-size: 18px;
+                    font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                    color: #70707c;
+                }
+                span {
+                    position: absolute;
+                    top: 21px;
+                    font-size: 19px;
+                    left: 271px;
+                    i {
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .text {
+        position: absolute;
+        top: 232px;
+        font-family: $mainFont;
+        color: #fff;
+        font-size: 5em;
+        left: 447px;
+        h1 {
+            font-weight: 400;
+            font-family: 'Condiment', cursive;
+        }
+        p {
+            text-align: center;
+            font-size: 34px;
+            margin-top: -109px;
+            margin-left: 12px;
+        }
+    }
+}
